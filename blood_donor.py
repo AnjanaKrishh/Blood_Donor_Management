@@ -84,16 +84,16 @@ class BloodDonorManager:
             print(e)
 
 
-donor_instance=BloodDonorManager()               #create an object
-# donor_instance.post(name="Biya",blood_group="AB+",phone="9123456789",city="Thrissur",last_donation=datetime.datetime.today())
-donor_instance.get()
-print("__details of blood donor__")
-donor_instance.retrieve(id=1)
-print(("___delete"))
-donor_instance.delete(id=3)
-print("__after updation__")
-donor_instance.put(id=2,city="Alapuzha")
-
-donor_instance.get()
+# donor_instance=BloodDonorManager()               #create an object
+# # donor_instance.post(name="Biya",blood_group="AB+",phone="9123456789",city="Thrissur",last_donation=datetime.datetime.today())
+# donor_instance.get()
+# print("__details of blood donor__")
+# donor_instance.retrieve(id=1)
+# print(("___delete"))
+# donor_instance.delete(id=3)
+# print("__after updation__")
+# donor_instance.put(id=2,city="Alapuzha")
+#
+# donor_instance.get()
 
 
